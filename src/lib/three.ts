@@ -1,0 +1,20 @@
+// Keep the lazy renderer chunk limited to the primitives actually used by MarsGlobe.
+export {
+  AmbientLight,
+  DirectionalLight,
+  Group,
+  LineBasicMaterial,
+  LineSegments,
+  MathUtils,
+  Mesh,
+  MeshBasicMaterial,
+  MeshStandardMaterial,
+  PerspectiveCamera,
+  Scene,
+  SphereGeometry,
+  SRGBColorSpace,
+  Texture,
+  TextureLoader,
+  WebGLRenderer,
+  WireframeGeometry,
+} from "three";
